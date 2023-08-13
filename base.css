@@ -1,38 +1,118 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 body {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  background-image: url(https://img.freepik.com/fotos-premium/interior-borrado-do-hospital-ou-clinico-com-povos-fundo-medico-abstrato_1484-1309.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
 }
 .main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
+  display: flex;
+  flex-flow: column;
+  width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+  width: 11%;
+  background-color: #176eb1;
+  padding: 10px 20px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fbfaff;
 }
-.header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+a {
+  color: #fbfaff;
+  text-decoration: solid;
+}
+
+#menubar {
+  list-style-type: none;
+  vertical-align: top;
+  margin-left: -37px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#homepng {
+  width: 100%;
 }
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+  min-height: 150px;
+  justify-content: center;
+  text-align: center;
+}
+#redes {
+  list-style-type: none;
+  margin-left: -37px;
+  margin-top: -13px;
+}
+#contato {
+  list-style-type: none;
+  margin-left: -37px;
+}
+#fundo {
+  width: 100%;
+}
+table tbody tr:hover {
+  background-color: lightblue;
+}
+.googlemaps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+label {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+#email {
+  width: 250px;
+}
+#nomec {
+  width: 250px;
+}
+#tel {
+  width: 250px;
+}
+#servico {
+  width: 250px;
+}
+#obs {
+  width: 250px;
+}
+button {
+  cursor: pointer;
+  padding: 7px 25px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: lightblue;
 }

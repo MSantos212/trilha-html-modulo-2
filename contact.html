@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Geral Saúde Total</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <h1>Menu</h1>
+        <ul id="menubar">
+          <li><a href="home.html" target="_self">Home</a></li>
+          <li><a href="about.html" target="_self">Sobre</a></li>
+          <li><a href="service.html" target="_self">Atendimento</a></li>
+          <li><a href="contact.html" target="_self">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img
+            id="homepng"
+            src="header1.png"
+            alt="Cuide da sua saúde conosco"
+          />
+        </div>
+
+        <div class="content">
+          <p>
+            Estamos aqui para responder às suas perguntas, agendar consultas e
+            fornecer informações sobre nossos serviços. Sinta-se à vontade para
+            entrar em contato conosco por meio de qualquer um dos seguintes
+            canais:
+          </p>
+
+          <p>
+            <b>Telefone:</b> Ligue para nossa equipe amigável no
+            <b>(16) 91234-5678</b> durante o nosso horário de atendimento e
+            ficaremos felizes em ajudar.
+          </p>
+
+          <p>
+            <b>E-mail:</b> Envie suas perguntas ou consultas por e-mail para
+            <b>clinicageralsaudetotal@gmail.com</b> e responderemos o mais
+            rápido possível.
+          </p>
+
+          <p>
+            <b>Visita Pessoal:</b> Se preferir, venha nos visitar pessoalmente
+            em nossa localização: Av. Francisco Matarazzo, 1705 - Água Branca,
+            São Paulo - SP, 05001-200. Teremos o prazer de recebê-lo e responder
+            a todas as suas perguntas.
+          </p>
+          <br />
+          <div class="googlemaps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1694237395186!2d-46.68145639975285!3d-23.526408011011547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57fee554fe91%3A0xb0f32cf552b6dc4a!2sAv.%20Francisco%20Matarazzo%2C%201705%20-%20%C3%81gua%20Branca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005001-200!5e0!3m2!1spt-BR!2sbr!4v1691946228483!5m2!1spt-BR!2sbr"
+              width="630"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <br />
+          <p>
+            <b>Formulário Online:</b> Preencha nosso formulário de contato
+            online em nosso site e entraremos em contato com você com a maior
+            brevidade possível.
+          </p>
+
+          <form
+            method="get"
+            onsubmit="alert('Solicitação de contato enviada! Aguarde que nossa equipe logo entrará em contato para confirmar seu atendimento.')"
+          >
+            <label>Nome completo: </label>
+            <input type="text" id="nomec" /><br /><br />
+            <label>E-mail: </label>
+            <input type="email" id="email" /><br /><br />
+            <label>Telefone: </label> <input type="tel" id="tel" /><br /><br />
+            <label>Serviço: </label>
+            <select name="Serviço" id="servico" style="text-align: center">
+              <option value="Consulta Médica Geral">
+                Consulta Médica Geral
+              </option>
+              <option value="Check-up Anual">Check-up Anual</option>
+              <option value="Aconselhamento Nutricional">
+                Aconselhamento Nutricional
+              </option>
+              <option value="Exames de Diagnóstico">
+                Exames de Diagnóstico
+              </option>
+              <option value="Programa de Exercícios">
+                Programa de Exercícios
+              </option>
+              <option value="Apoio Psicológico">
+                Apoio Psicológico
+              </option></select
+            ><br /><br />
+            <label>Observações: </label>
+            <textarea name="observacao" id="obs" cols="20" rows="3"></textarea
+            ><br />
+            <button type="submit" id="enviar">Enviar</button
+            ><button type="reset" id="resetar">Limpar</button>
+          </form>
+
+          <p>
+            Estamos comprometidos em fornecer um atendimento ágil e atencioso
+            para todas as suas necessidades. Não hesite em entrar em contato
+            conosco para obter informações sobre nossos serviços, marcar
+            consultas ou para qualquer outra consulta que possa ter. Sua saúde e
+            bem-estar são nossa prioridade e estamos aqui para ajudar em cada
+            passo do caminho.
+          </p>
+        </div>
+
+        <div class="footer">
+          <h3>Clinica Geral Saúde Total</h3>
+          <ul id="contato">
+            <li>Telefone: (16) 91234-5678</li>
+            <li>E-mail: clinicageralsaudetotal@gmail.com</li>
+            <li>
+              Endereço: Av. Francisco Matarazzo, 1705 - Água Branca, São Paulo -
+              SP, 05001-200
+            </li>
+          </ul>
+          <h4>Redes Sociais</h4>
+          <ul id="redes">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  id="faceb"
+                  src="https://static.vecteezy.com/system/resources/previews/016/716/447/original/facebook-icon-free-png.png"
+                  width="50px"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="https://imagepng.org/wp-content/uploads/2017/08/instagram-icone-icon-1.png"
+                  width="50px"
+                  alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
